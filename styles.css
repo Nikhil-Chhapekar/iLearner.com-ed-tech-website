@@ -1,0 +1,37 @@
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #111213;
+    transition: 0.5s ease;
+    
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+
+}
+ 
+.card-img-top {
+    border-top-left-radius: calc(5px - 1px);
+    border-top-right-radius: calc(5px - 1px);
+}
+h2{
+    padding: 3px;
+    text-align: center;
+}
+
+/* educatoers img border */
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    border: 2px solid black;
+}
